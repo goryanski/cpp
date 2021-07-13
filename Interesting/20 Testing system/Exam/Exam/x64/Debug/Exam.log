@@ -1,0 +1,36 @@
+﻿  AdminLoginHelper.cpp
+  Answers.cpp
+  Application.cpp
+  DirectoryHelper.cpp
+C:\Users\Student\Desktop\igor\Exam\Exam\DirectoryHelper.cpp(11,14): warning C4244: инициализация: преобразование "intptr_t" в "long", возможна потеря данных
+C:\Users\Student\Desktop\igor\Exam\Exam\DirectoryHelper.cpp(100,14): warning C4244: инициализация: преобразование "intptr_t" в "long", возможна потеря данных
+C:\Users\Student\Desktop\igor\Exam\Exam\DirectoryHelper.cpp(134,14): warning C4244: инициализация: преобразование "intptr_t" в "long", возможна потеря данных
+C:\Users\Student\Desktop\igor\Exam\Exam\DirectoryHelper.cpp(152,15): warning C4244: инициализация: преобразование "intptr_t" в "long", возможна потеря данных
+  IncorrectPasswordException.cpp
+  IncorrectRegistrationInfoException.cpp
+  AdminPanelApplication.cpp
+  testEditor.cpp
+  UserPanelApplication.cpp
+  Question.cpp
+  Source.cpp
+  TestResult.cpp
+  TestsManagement.cpp
+  Account.cpp
+  UserAlreadyExistsException.cpp
+  UserInfo.cpp
+  UserNotFoundException.cpp
+  TestPassing.cpp
+C:\Users\Student\Desktop\igor\Exam\Exam\TestPassing.cpp(90,49): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Student\Desktop\igor\Exam\Exam\TestPassing.cpp(101,49): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Student\Desktop\igor\Exam\Exam\TestPassing.cpp(113,50): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Student\Desktop\igor\Exam\Exam\TestPassing.cpp(124,53): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  UsersManagement.cpp
+  UsersStorage.cpp
+  Создание кода...
+C:\Users\Student\Desktop\igor\Exam\Exam\TestsManagement.cpp(138): warning C4715: TestsManagement::readTest: значение возвращается не при всех путях выполнения
+C:\Users\Student\Desktop\igor\Exam\Exam\Answers.cpp(39): warning C4715: Answers::readFromFile: значение возвращается не при всех путях выполнения
+C:\Users\Student\Desktop\igor\Exam\Exam\AdminLoginHelper.cpp(64): warning C4715: AdminLoginHelper::isPasswordValid: значение возвращается не при всех путях выполнения
+  Компиляция...
+  Utils.cpp
+  Создание кода...
+  Exam.vcxproj -> C:\Users\Student\Desktop\igor\Exam\x64\Debug\Exam.exe

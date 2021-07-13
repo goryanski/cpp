@@ -1,0 +1,10 @@
+rrrrr
+Math
+Discrete Math.txt
+12 5 1 (Amount of answers, Amount of correct answers, Mark)
+
+rrrrr
+Math
+hhh.txt
+3 2 7 (Amount of answers, Amount of correct answers, Mark)
+

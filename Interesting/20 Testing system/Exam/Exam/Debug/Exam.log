@@ -1,0 +1,39 @@
+﻿  AdminLoginHelper.cpp
+  Answers.cpp
+  Application.cpp
+  DirectoryHelper.cpp
+  IncorrectPasswordException.cpp
+  IncorrectRegistrationInfoException.cpp
+  AdminPanelApplication.cpp
+  testEditor.cpp
+C:\Users\user\Desktop\cpp\Interesting\20 Testing system\Exam\Exam\testEditor.cpp(139,30): warning C4018: '>': signed/unsigned mismatch
+C:\Users\user\Desktop\cpp\Interesting\20 Testing system\Exam\Exam\testEditor.cpp(154,30): warning C4018: '>': signed/unsigned mismatch
+C:\Users\user\Desktop\cpp\Interesting\20 Testing system\Exam\Exam\testEditor.cpp(208,30): warning C4018: '>': signed/unsigned mismatch
+  UserPanelApplication.cpp
+  Question.cpp
+C:\Users\user\Desktop\cpp\Interesting\20 Testing system\Exam\Exam\Question.cpp(36,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\Desktop\cpp\Interesting\20 Testing system\Exam\Exam\Question.cpp(45,20): warning C4018: '<': signed/unsigned mismatch
+  Source.cpp
+  TestResult.cpp
+  TestsManagement.cpp
+C:\Users\user\Desktop\cpp\Interesting\20 Testing system\Exam\Exam\TestsManagement.cpp(62,37): warning C4018: '>': signed/unsigned mismatch
+C:\Users\user\Desktop\cpp\Interesting\20 Testing system\Exam\Exam\TestsManagement.cpp(88,37): warning C4018: '>': signed/unsigned mismatch
+  Account.cpp
+  UserAlreadyExistsException.cpp
+  UserInfo.cpp
+  UserNotFoundException.cpp
+  TestPassing.cpp
+C:\Users\user\Desktop\cpp\Interesting\20 Testing system\Exam\Exam\TestPassing.cpp(46,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\Desktop\cpp\Interesting\20 Testing system\Exam\Exam\TestPassing.cpp(95,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\Desktop\cpp\Interesting\20 Testing system\Exam\Exam\TestPassing.cpp(105,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\Desktop\cpp\Interesting\20 Testing system\Exam\Exam\TestPassing.cpp(133,33): warning C4018: '<': signed/unsigned mismatch
+  UsersManagement.cpp
+  UsersStorage.cpp
+  Generating Code...
+C:\Users\user\Desktop\cpp\Interesting\20 Testing system\Exam\Exam\TestsManagement.cpp(138): warning C4715: 'TestsManagement::readTest': not all control paths return a value
+C:\Users\user\Desktop\cpp\Interesting\20 Testing system\Exam\Exam\Answers.cpp(39): warning C4715: 'Answers::readFromFile': not all control paths return a value
+C:\Users\user\Desktop\cpp\Interesting\20 Testing system\Exam\Exam\AdminLoginHelper.cpp(64): warning C4715: 'AdminLoginHelper::isPasswordValid': not all control paths return a value
+  Compiling...
+  Utils.cpp
+  Generating Code...
+  Exam.vcxproj -> C:\Users\user\Desktop\cpp\Interesting\20 Testing system\Exam\Debug\Exam.exe

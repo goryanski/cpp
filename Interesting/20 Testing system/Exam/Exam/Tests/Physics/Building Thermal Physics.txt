@@ -1,0 +1,61 @@
+12
+3
+Heat transfer, moisture transfer and air filtration in relation to construction is ... construction thermal physics
+object
+subject
+task
+3
+Heat is:
+any process of energy exchange between bodies, carried out by direct interaction
+a process that occurs in solid materials, regardless of their structure
+change in body energy during heat exchange
+3
+Climatology is the science of:
+warmth
+heat exchange
+climate
+3
+The microclimate covers:
+regions of the country
+large regions
+building areas
+3
+Irradiation with direct sunlight is called:
+exothermia
+intermediate
+insolation
+3
+The amount of moisture in 1 m3 of air is called:
+absolute humidity
+dew point
+relative humidity
+3
+The difference between the maximum water vapor pressure (E) and the actual water vapor pressure (e) is called:
+dew point
+condensate
+moisture deficit
+3
+To what extent is air with relative humidity perceived normally?
+40 - 50%
+30 - 60%
+30 - 50%
+3
+Precipitation data are used in calculations: (mark incorrect):
+storm sewer
+snow load on buildings and structures
+all answers are correct
+3
+The direction of air movement is called:
+compass rose
+vector
+south
+3
+The generalized graphic information about the wind by points is:
+spectrum
+compass rose
+vector
+3
+To what type of terrain are urban areas, woodlands and other areas evenly covered with obstacles?
+first (A)
+second (B)
+third (C)

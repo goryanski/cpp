@@ -1,0 +1,4 @@
+﻿  lesson_2.1.cpp
+E:\Users\Admin\Desktop\STEP\Home works\ооп с++\Lesson 02\home\lesson_2.1\lesson_2.1\lesson_2.1.cpp(20,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Users\Admin\Desktop\STEP\Home works\ооп с++\Lesson 02\home\lesson_2.1\lesson_2.1\lesson_2.1.cpp(28,1): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  lesson_2.1.vcxproj -> E:\Users\Admin\Desktop\STEP\Home works\ооп с++\Lesson 02\home\lesson_2.1\x64\Debug\lesson_2.1.exe

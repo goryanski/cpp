@@ -1,0 +1,8 @@
+﻿  Directory.cpp
+E:\Users\Admin\Desktop\STEP\Home works\home ооп с++\неделя 4\урок 10\lesson_10\lesson_10\Directory.cpp(11,14): warning C4244: инициализация: преобразование "intptr_t" в "long", возможна потеря данных
+E:\Users\Admin\Desktop\STEP\Home works\home ооп с++\неделя 4\урок 10\lesson_10\lesson_10\Directory.cpp(42,14): warning C4244: инициализация: преобразование "intptr_t" в "long", возможна потеря данных
+E:\Users\Admin\Desktop\STEP\Home works\home ооп с++\неделя 4\урок 10\lesson_10\lesson_10\Directory.cpp(103,14): warning C4244: инициализация: преобразование "intptr_t" в "long", возможна потеря данных
+E:\Users\Admin\Desktop\STEP\Home works\home ооп с++\неделя 4\урок 10\lesson_10\lesson_10\Directory.cpp(162,14): warning C4244: инициализация: преобразование "intptr_t" в "long", возможна потеря данных
+  lesson_10.cpp
+  Создание кода...
+  lesson_10.vcxproj -> E:\Users\Admin\Desktop\STEP\Home works\home ооп с++\неделя 4\урок 10\lesson_10\x64\Debug\lesson_10.exe

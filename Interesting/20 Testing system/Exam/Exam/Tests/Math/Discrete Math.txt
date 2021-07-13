@@ -1,0 +1,61 @@
+12
+3
+Which of the following relations are equivalence relations?
+x and y - both study in the same place.
+x is the brother of y.
+x is older than y.
+3
+The operation of selection is a construction:
+the horizontal subset of the relationship;
+the vertical subset of the relationship;
+the diagonal subset of the relation;
+3
+Which of the following relationships are strict relationships?
+The segment x is longer than the segment x.
+The segment x is 2 times shorter than the segment y - on the set of segments.
+x is older than y.
+3
+Relationships are compatible:
+always;
+if they have different degrees;
+if they have the same degree;
+3
+Mapping A to B is:
+partially defined function;
+a function defined everywhere;
+surjective correspondence;
+3
+Can the elements of a set be repeated?
+yes;
+no.
+not defined
+3
+Is a set an improper subset of itself?
+yes;
+No.
+not defined
+3
+Sets are equal if they contain:
+the same elements;
+the same number of elements.
+not defined
+3
+Are the concepts of cardinality of a set and its cardinal number identical?
+yes;
+No.
+not defined
+3
+Can vector components be repeated?
+yes;
+no.
+not defined
+3
+Vector length is determined:
+the number of different elements;
+the number of coordinates.
+not defined
+3
+Is a mapping bijective if it is surjective and injective?
+yes;
+No.
+not defined

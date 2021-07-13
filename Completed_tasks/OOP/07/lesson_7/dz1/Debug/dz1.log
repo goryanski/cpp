@@ -1,0 +1,5 @@
+﻿  Game.cpp
+  Source.cpp
+E:\Users\Admin\Desktop\STEP\Home works\home ооп с++\неделя 3\Lesson 07\home\lesson_7\dz1\Source.cpp(5,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+  dz1.vcxproj -> E:\Users\Admin\Desktop\STEP\Home works\home ооп с++\неделя 3\Lesson 07\home\lesson_7\Debug\dz1.exe

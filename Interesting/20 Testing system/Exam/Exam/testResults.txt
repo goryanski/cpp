@@ -1,0 +1,9 @@
+2
+rrrrr
+Math
+Discrete Math.txt
+12 5 1 
+rrrrr
+Math
+hhh.txt
+3 2 7 

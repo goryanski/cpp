@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (test2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  List.cpp
+  Node.cpp
+  Source.cpp
+  Создание кода...
+  test2.vcxproj -> E:\Users\Admin\Desktop\STEP\Home works\home ооп с++\неделя 3\Lesson_8.1\Debug\doubleLinkedList.exe

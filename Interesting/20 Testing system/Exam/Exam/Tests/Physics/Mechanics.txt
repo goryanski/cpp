@@ -1,0 +1,61 @@
+12
+3
+What is a material point?
+a body whose dimensions in this problem can be neglected
+body, the state of which is taken into account in this problem
+a physical body moving evenly and rectilinearly
+3
+Equilibrium is understood as
+a state of absolute rest or a state of uniform rectilinear motion
+a state of absolute rest
+state of uniform rectilinear motion
+3
+What theoretical mechanics studies?
+basic laws of mechanical motion of physical bodies
+laws of equilibrium of physical bodies
+laws of motion of bodies
+3
+What statics studies?
+conditions of equilibrium of physical bodies under the action of applied forces
+state of equilibrium of bodies
+state of rest of bodies
+3
+What kinematics studies?
+the geometric shape of mechanical movement without taking into account the reasons causing these movements
+different types of body movement
+movement of physical bodies under the action of applied forces
+3
+What dynamics study?
+basic laws of mechanical motion of physical bodies
+movement of a material point
+movement of an absolutely rigid body
+3
+What is an absolutely rigid body?
+a physical body in which the distance between any two points always remains unchanged
+a body whose dimensions in this problem can be neglected
+a physical body, the balance of which is considered in the problem
+3
+What is called strength?
+measure of mechanical interaction of physical bodies
+the nature of the interaction of bodies
+characteristic of the impact of one body on another body
+3
+List the factors that characterize the effect of force on the body
+point of application, magnitude and direction of force
+modulus and direction of force
+point of application and magnitude of force
+3
+What is called a system of forces?
+the combination of several forces applied to one body
+the sum of the forces acting on the body
+several forces applied to different bodies
+3
+What systems are called equivalent?
+systems that have the same mechanical effect on the same body
+forces applied to one body
+forces acting on different bodies
+3
+What is called reactive force?
+the magnitude and direction of the force acting from the side of the bond on the body
+the force acting from the body on the connection
+the strength of the bond
