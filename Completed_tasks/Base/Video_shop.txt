@@ -1,0 +1,246 @@
+#include <iostream>
+#include <conio.h>//для _getch()
+#include <iomanip> // для setw() нашей ф-ции Show(), что бы задать равномерные отступы колонкам при выводе на экран
+using namespace std;
+struct Film
+{
+	char Name[30];
+	char Direct[25];
+	char Ganr[15];
+	float Imdb;
+	float Cena;
+};
+Film Vvod()
+{
+	Film tmp;
+	cout << " Enter name of film: ";
+	gets_s(tmp.Name);
+	cout << " Enter fio regicera: ";
+	gets_s(tmp.Direct);
+	cout << " Enter ganre of film: ";
+	gets_s(tmp.Ganr);
+	cout << " Enter Imdb: ";
+	cin >> tmp.Imdb;
+	cout << " Enter cena of fiml: ";
+	cin >> tmp.Cena;
+	cin.ignore();//что бы очитстить то что было в буфере ввода после cin, т.к. он оставляет после себя \n
+	return tmp;
+}
+void Show(Film tmp)
+{
+	cout << left << setw(29) << tmp.Name << setw(24) << tmp.Direct << setw(14) << tmp.Ganr << setw(3) << tmp.Imdb << setw(6) << tmp.Cena << "\n";
+}// setw(29) - на единицу меньше заданного в struct Film кол-ва для каждого поля, т.к. один символ под /0 
+Film* Add(Film* arr, int& n)
+{
+	arr = (Film*)realloc(arr, (n + 1) * sizeof(Film));
+	arr[n] = Vvod();
+	n++;
+	return arr;
+}
+void Print(Film* arr, int n)
+{
+	for (int i = 0; i < n; i++)
+	{
+		Show(arr[i]);
+	}
+}
+void Find_name(Film* arr, int n, char* str)
+{
+	int f = 0;
+	for (int i = 0; i < n; i++)
+	{
+		if (_stricmp(arr[i].Name, str) == 0)
+		{
+			f = 1;
+			Show(arr[i]);
+		}
+	}
+	if (f == 0)
+		cout << " There is no such film\n";
+}
+void Find_Direct(Film* arr, int n, char* str)
+{
+	int f = 0;
+	for (int i = 0; i < n; i++)
+	{
+		if (_stricmp(arr[i].Direct, str) == 0)
+		{
+			f = 1;
+			Show(arr[i]);
+		}
+	}
+	if (f == 0)
+		cout << " There is no film of such Direct\n";
+}
+void Find_Ganr(Film* arr, int n, char* str)
+{
+	int f = 0;
+	for (int i = 0; i < n; i++)
+	{
+		if (_stricmp(arr[i].Ganr, str) == 0)
+		{
+			f = 1;
+			Show(arr[i]);
+		}
+	}
+	if (f == 0)
+		cout << " There is no film of such Ganr\n";
+}
+Film* Del_Name(Film* arr, int& n, char* str)
+{
+	int f = 0;
+	for (int i = 0; i < n; i++)
+	{
+		if (_stricmp(arr[i].Name, str) == 0)
+		{
+			for (int j = i; j < n - 1; j++)
+			{
+				arr[j] = arr[j + 1];
+			}
+			arr = (Film*)realloc(arr, (n - 1) * sizeof(Film));
+			n--;
+			i--;
+			f = 1;
+		}
+	}
+	if (f == 0)
+		cout << " There is no such film\n";
+	else
+		cout << " Film is deleted\n";
+	return arr;
+}
+void Most_popular_films(Film* arr, int n, char* str)
+{
+	float Max = -1;
+	for (int i = 0; i < n; i++)
+	{
+		if (arr[i].Imdb > Max && _stricmp(arr[i].Ganr, str) == 0)
+			Max = arr[i].Imdb;
+	}
+	if(Max == -1)
+		cout<< " There is no such ganr\n";
+	else
+	{
+		for (int i = 0; i < n; i++)
+		{
+			if (arr[i].Imdb == Max && _stricmp(arr[i].Ganr, str) == 0)
+				Show(arr[i]);
+		}
+	}
+}
+void Sort_Name(Film* arr, int n)
+{
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = n - 1; j > i ; j--)
+		{
+			if (_stricmp(arr[j].Name, arr[j - 1].Name) < 0)
+			{
+				Film tmp = arr[j];
+				arr[j] = arr[j - 1];
+				arr[j - 1] = tmp;
+			}
+		}
+	}
+	for (int i = 0; i < n; i++)
+	{
+		Show(arr[i]);
+	}
+}
+void Sort_Imdb(Film* arr, int n)
+{
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = n - 1; j > i; j--)
+		{
+			if (arr[j].Imdb > arr[j - 1].Imdb)
+			{
+				Film tmp = arr[j];
+				arr[j] = arr[j - 1];
+				arr[j - 1] = tmp;
+			}
+		}
+	}
+	for (int i = 0; i < n; i++)
+	{
+		Show(arr[i]);
+	}
+}
+int main()
+{
+	setlocale(LC_ALL, "ru");
+	Film* baza = nullptr;// для созданися динамического массива сперва создадим указатель, и поскольку в массиве еще ничего нет, приравняем к nullptr;
+	int n = 0;//кол-во фильмов в базе данных, пока равно 0 
+	char ch;
+	char str[30];
+	do
+	{
+		system("cls");
+		cout << "MЕНЮ.\n";
+		cout << "1 - Добавление фильма в базу данных.\n";
+		cout << "2 - Вывод базы данных на экран.\n";
+		cout << "3 - Поиск по названию фильма.\n";
+		cout << "4 - Поиск по режисеру.\n";
+		cout << "5 - Поиск по жанру.\n";
+		cout << "6 - Удаление по названию фильма.\n";
+		cout << "7 - Сам популярный фильм в жанре.\n";
+		cout << "8 - Сортировка по названию фильма.\n";
+		cout << "9 - Сортировка по Imdb.\n";
+		cout << "0 - Выход.\n";
+		cout << "Ваш выбор: ";
+		ch = _getch();
+		switch (ch)
+		{
+		case '1': system("cls");
+			baza = Add(baza, n);
+			cout << "Фильм добавлен.\n";
+			system("pause");
+			break;
+		case '2': system("cls");
+			Print(baza, n);
+			system("pause");
+			break;
+		case '3': system("cls");
+			cout << "Vvedite name of Film: ";
+			gets_s(str);
+			Find_name(baza, n, str);
+			system("pause");
+			break;
+		case '4': system("cls");
+			cout << "Vvedite fio of direct: ";
+			gets_s(str);
+			Find_Direct(baza, n, str);
+			system("pause");
+			break;
+		case '5': system("cls");
+			cout << "Vvedite ganr: ";
+			gets_s(str);
+			Find_Ganr(baza, n, str);
+			system("pause");
+			break;
+		case '6': system("cls");
+			cout << "Vvedite name of Film: ";
+			gets_s(str);
+			baza = Del_Name(baza, n, str);
+			system("pause");
+			break;
+		case '7': system("cls");
+			cout << "Vvedite ganr: ";
+			gets_s(str);
+			Most_popular_films(baza, n, str);
+			system("pause");
+			break;
+		case '8':system("cls");
+			Sort_Name(baza, n);
+			cout << "Сортирока произошла.\n";
+			system("pause");
+			break;
+		case '9':system("cls");
+			Sort_Imdb(baza, n);
+			cout << "Сортирока произошла.\n";
+			system("pause");
+			break;
+		}
+	} while (ch != '0');
+	free(baza);
+}
